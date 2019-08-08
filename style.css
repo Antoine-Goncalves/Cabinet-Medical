@@ -5,3 +5,17 @@ html,body {
 	padding: 0;
 }
 
+header {
+	border: 2px solid #b9e8b7;
+	display: flex;
+	background-color:#D6FFE0;
+}
+
+header .picture-logo {
+	justify-content: flex-start;
+}
+
+header .title {
+	justify-content: flex-end;
+	
+}
