@@ -18,7 +18,8 @@ header .picture-logo {
 
 header .title {
 	justify-content: flex-end;
-	font-size: 40px;	
+	font-size: 40px;
+	color: #0b9c88;	
 }
 
 nav {
