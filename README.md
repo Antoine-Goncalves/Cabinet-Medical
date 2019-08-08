@@ -6,6 +6,7 @@
 * Il as besoin d'un site moderne.
 * Avec de belles couleurs.
 * Il n'as pas de visuels / logos ( du coup création de leurs logo ).
+## Les besoins sont :
 
 * Il as besoin de :
   + une page d'accueil,
@@ -21,7 +22,7 @@
   + son numéro de téléphone puisse lancer l'appel sur les mobiles,
   + son mail ne soit pas la cible de spams.
 
-Les critères qualité sont :
+## Les critères qualité sont :
 
 * Structure HTML Clean,
 * COmmentaires COmpréhensibles et concis,
@@ -42,3 +43,17 @@ Les critères qualité sont :
 * 0 Frameworks CSS,
 * 0 JS.
 
+## Conditions de livraisons :
+
+* 1 repo Github,
+* Activation **gh-pages**,
+* Chaque repo = 1 lien **gh-pages** dans l'entête du repo,
+* Des commits avec des intitulés clairs et précis en anglais,
+* 3 WireFrames par page (mobile,tablette,desktop),
+* Envoi du lien repo par Slack,
+* Livraison Dimanche 00:00 maximum.
+
+ :bowtie: **_Enjoy_** :bowtie:
+ 
+ 
+ *PS : Ceci est un exercice , ce n'est pas un vrai site :bangbang:*
