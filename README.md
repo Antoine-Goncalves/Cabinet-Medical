@@ -21,3 +21,24 @@
   + son numéro de téléphone puisse lancer l'appel sur les mobiles,
   + son mail ne soit pas la cible de spams.
 
+Les critères qualité sont :
+
+* Structure HTML Clean,
+* COmmentaires COmpréhensibles et concis,
+* Sémantique (balises HTML),
+* Alternatives aux médias (alt),
+* Favicon,
+* W3C Validator,
+* Code Propre (organisation et indentation),
+* Nommage compréhensible et pertinent,
+* Ordonner le CSS par "Zone",
+* Utilisation des Raccourcis en CSS,
+* "Less is More",
+* Responsive,
+* Mobile First,
+* Flexbox et CSS Grid,
+* Google Fonts,
+* Pas d'IDs (classes only),
+* 0 Frameworks CSS,
+* 0 JS.
+
