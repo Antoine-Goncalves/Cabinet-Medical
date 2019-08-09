@@ -94,15 +94,39 @@ nav a {
 
 aside {
 	float: right;
+	color: #0b9c88;
 	background-color: #B7E8D1;
 	border-radius: 20px;
 	margin-top: 10px;
 }
 
+.phone-logo {
+	width: 7.1rem;
+	height: 7.1rem;
+
+}
+
+.info-importante {
+	border: 1px solid #0b9c88;
+        background-color: #0b9c88;
+        color: white;
+        box-shadow: 1px 1px 1px 1px #0b9c88;
+	text-decoration: none;
+	text-align: center;
+}
+
+.mail-logo {
+        width: 7.1rem;
+        height: 7.1rem;
+
+}
+
+
 /* SECTION PART */
 
 .presentation {
 	display: flex;
+	color: #0b9c88;
 	align-content: center;
 	background-color: #B7E8D1;
 	border-radius: 20px;
@@ -129,8 +153,6 @@ figcaption {
 
 .EMC-picture:hover {
 	box-shadow: 5px 5px 5px 5px #0b9c88;
-	width: 35rem;
-	height: 25rem;
 }
 
 /* ARTICLE PART */
@@ -153,6 +175,7 @@ figcaption {
 
 article {
 	display: flex;
+	color: #0b9c88;
         align-content: center;
         background-color: #B7E8D1;
         border-radius: 20px;
@@ -165,6 +188,7 @@ article {
 
 footer {
 	background-color: #D6FFE0;
+	color: #0b9c88;
 	border: 2px solid #b9e8b7;
 	margin-top: 10px;	
 }
