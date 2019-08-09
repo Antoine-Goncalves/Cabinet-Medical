@@ -5,6 +5,7 @@
 html,body {
 	margin: 0;
 	padding: 0;
+	background-color: #F2F2E6;
 }
 
 /* HEADER PART */
@@ -92,7 +93,79 @@ nav a {
 /* ASIDE PART */
 
 aside {
+	float: right;
 	background-color: #B7E8D1;
 	border-radius: 20px;
 	margin-top: 10px;
 }
+
+/* SECTION PART */
+
+.presentation {
+	display: flex;
+	align-content: center;
+	background-color: #B7E8D1;
+	border-radius: 20px;
+	margin-top: 10px;
+	width: 80%;
+}
+
+figcaption {
+        text-align: center;
+        border: 2px solid #0b9c88;
+	background-color: #0b9c88;
+	color: white;
+        box-shadow: 2px 2px 2px 2px #0b9c88;
+}
+
+.text {
+	font-size: 1.1rem;
+}
+
+.EMC-picture {
+	width: 25rem;
+	height: 15rem;
+}
+
+.EMC-picture:hover {
+	box-shadow: 5px 5px 5px 5px #0b9c88;
+	width: 35rem;
+	height: 25rem;
+}
+
+/* ARTICLE PART */
+
+.doctolib {
+	background-color: #0b9c88;
+	border-radius: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+.steto {
+	width: 25rem;
+	height: 15rem;
+}
+
+.steto:hover {
+	box-shadow: 5px 5px 5px 5px #0b9c88;
+}
+
+article {
+	display: flex;
+        align-content: center;
+        background-color: #B7E8D1;
+        border-radius: 20px;
+        margin-top: 10px;
+        width: 80%;
+
+}
+
+/* FOOTER PART */
+
+footer {
+	background-color: #D6FFE0;
+	border: 2px solid #b9e8b7;
+	margin-top: 10px;	
+}
+
