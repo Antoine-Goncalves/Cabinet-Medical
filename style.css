@@ -3,8 +3,8 @@
 /* HTML,BODY PART */
 
 html,body {
-	margin: 0;
 	padding: 0;
+	margin:0;
 	background-color: #F2F2E6;
 }
 
@@ -16,6 +16,7 @@ header {
 	background-color:#D6FFE0;
 	margin-bottom: 10px;
 }
+
 
 header .picture-logo {
 	justify-content: flex-start;
@@ -48,8 +49,8 @@ nav ul {
 }
 
 nav a {
-        display :inline-block;    
-        text-decoration: none;    
+        display :inline-block;
+	text-decoration: none;
         padding: 1.25rem 1.87rem;
         color: #0b9c88;
         text-transform: uppercase;    
@@ -134,7 +135,7 @@ aside {
 	width: 80%;
 }
 
-figcaption {
+figcaption .title-ECM {
         text-align: center;
         border: 2px solid #0b9c88;
 	background-color: #0b9c88;
