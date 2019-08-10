@@ -178,7 +178,37 @@ td,tr {
 	border : 1px inset #0b9c88;
 }
 
+.info-medecin {
+        display: flex;
+        color: #0b9c88;
+        background-color: #B7E8D1;
+        border-radius: 20px;
+        margin-top: 10px;
+}
 
+.doctor {
+	width: 15rem;
+        height: 15rem;
+}
+
+.doctor:hover {
+        box-shadow: 5px 5px 5px 5px #0b9c88;
+}
+
+.name-doctor {
+	text-align: center;
+        border: 2px solid #0b9c88;
+        background-color: #0b9c88;
+        color: white;
+        box-shadow: 2px 2px 2px 2px #0b9c88;
+}
+.info-doctor {
+	font-size: 30px;
+}
+
+.spe {
+	align-self: center;
+}
 
 /* ARTICLE PART */
 
