@@ -54,7 +54,7 @@ nav a {
         padding: 1.25rem 1.87rem;
         color: #0b9c88;
         text-transform: uppercase;    
-        font-size: 0.93rem;
+        font-size: 1rem;
 }
 
 .menu {
@@ -212,11 +212,21 @@ article {
 .honoraires {
 	justify-content: center;
 	width: 100%;
+	font-size: 30px;
+}
+
+.honoraires p {
+	font-size: 30px;
+}
+
+.conges p {
+	font-size: 30px;
 }
 
 .conges {
 	justify-content: center;
 	width: 100%;
+	font-size: 30px;
 }
 
 /* FOOTER PART */
