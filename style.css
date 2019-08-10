@@ -185,6 +185,16 @@ article {
 
 }
 
+.honoraires {
+	justify-content: center;
+	width: 100%;
+}
+
+.conges {
+	justify-content: center;
+	width: 100%;
+}
+
 /* FOOTER PART */
 
 footer {
