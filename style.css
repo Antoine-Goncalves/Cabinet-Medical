@@ -135,7 +135,7 @@ aside {
 	width: 80%;
 }
 
-figcaption .title-ECM {
+.title-ECM {
         text-align: center;
         border: 2px solid #0b9c88;
 	background-color: #0b9c88;
@@ -155,6 +155,30 @@ figcaption .title-ECM {
 .EMC-picture:hover {
 	box-shadow: 5px 5px 5px 5px #0b9c88;
 }
+
+
+table {
+	display: flex;
+	justify-content: center;
+        color: #0b9c88;
+        background-color: #B7E8D1;
+        border-radius: 20px;
+        margin-top: 10px;
+        width: 100%;
+	font-size: 30px;
+
+}
+
+tbody{
+	border : 5px solid #0b9c88;
+	width: 50%;
+}
+
+td,tr {
+	border : 1px inset #0b9c88;
+}
+
+
 
 /* ARTICLE PART */
 
