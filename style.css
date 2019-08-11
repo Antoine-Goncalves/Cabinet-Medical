@@ -1,8 +1,5 @@
 /* CSS Document */
 
-/* MEDIA QUERIES PART */
-
-
 /* HTML,BODY PART */
 
 html,body {
@@ -104,6 +101,12 @@ aside {
 	border-radius: 20px;
 	margin-top: 10px;
 }
+
+@media only screen and (max-device-width: 960px){
+	aside {
+		display: none;
+	}
+} 
 
 .phone-logo {
 	width: 6.4rem;
@@ -305,4 +308,3 @@ footer {
 	border: 2px solid #b9e8b7;
 	margin-top: 10px;	
 }
-
