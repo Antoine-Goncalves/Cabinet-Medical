@@ -1,5 +1,13 @@
 /* CSS Document */
 
+/* MEDIAS QUERIES PART */
+
+@media only screen and (max-device-width: 960px){
+        aside {
+                display: none;
+        }
+}
+
 /* HTML,BODY PART */
 
 html,body {
@@ -102,11 +110,6 @@ aside {
 	margin-top: 10px;
 }
 
-@media only screen and (max-device-width: 960px){
-	aside {
-		display: none;
-	}
-} 
 
 .phone-logo {
 	width: 6.4rem;
