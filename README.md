@@ -25,7 +25,7 @@
 ## Les critères qualité sont :
 
 * Structure HTML Clean,
-* COmmentaires COmpréhensibles et concis,
+* Commentaires Compréhensibles et concis,
 * Sémantique (balises HTML),
 * Alternatives aux médias (alt),
 * Favicon,
