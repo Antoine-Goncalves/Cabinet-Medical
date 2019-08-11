@@ -18,7 +18,9 @@
 	iframe {
 		display: none;
 	}
-
+	.urgency {
+		display: none;
+	}
 }
 
 /* HTML,BODY PART */
