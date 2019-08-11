@@ -9,9 +9,13 @@
 	.doctolib-link{
 		width: 100%;
 	}
+	.presentation {
+		width: 100%;
+	}
 	.steto {
 		display: none;
 	}
+
 }
 
 /* HTML,BODY PART */
