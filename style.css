@@ -2,11 +2,6 @@
 
 /* MEDIA QUERIES PART */
 
-@media screen and (mini-width: 479px) and (max-width: 959px) {
-	aside {
-		display: none;
-	}
-}
 
 /* HTML,BODY PART */
 
