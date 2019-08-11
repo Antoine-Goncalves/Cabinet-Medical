@@ -210,6 +210,24 @@ td,tr {
 	align-self: center;
 }
 
+section iframe, form {
+	color: #0b9c88;
+        background-color: #B7E8D1;
+        border-radius: 20px;
+        margin-top: 10px;
+}
+
+section form {
+	height: 20rem;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
 /* ARTICLE PART */
 
 .doctolib {
