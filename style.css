@@ -1,46 +1,7 @@
 /* CSS Document */
 
-/* MEDIAS QUERIES PART */
 
-@media only screen and (max-device-width: 750px){
-        aside {
-                display: none;
-        }
-	.doctolib-link{
-		width: 100%;
-	}
-	section .presentation {
-		width: 100%;
-	}
-	.steto {
-		display: none;
-	}
-	iframe {
-		display: none;
-	}
-	.urgency {
-		display: none;
-	}
-	.EMC-picture {
-		display: none;	
-	}
-	.logo-picture {
-		width: 80px;
-		height: 80px;
-	}
-	table,tbody,td,tr {
-		font-size: small;
-	}
-	.doctor {
-		width: 20px;
-		height: 20px;
-	}
-	.info-doctor,.spe {
-		display: none;
-	}
-}
-
-/* HTML,BODY PART */
+/* HTML, BODY PART */
 
 html,body {
 	font-family: 'Montserrat', sans-serif;
@@ -342,4 +303,44 @@ footer {
 	color: #0b9c88;
 	border: 2px solid #b9e8b7;
 	margin-top: 10px;	
+}
+
+/* MEDIAS QUERIES PART */
+
+@media only screen and (device-width < 750px){
+        aside {
+                display: none;
+        }
+        .doctolib-link{
+                width: 100%;
+        }
+        section .presentation {
+                width: 100%;
+        }
+        .steto {
+                display: none;
+        }
+        iframe {
+                display: none;
+        }
+        .urgency {
+                display: none;
+        }
+        .EMC-picture {
+                display: none;
+        }
+        .logo-picture {
+                width: 80px;
+                height: 80px;
+        }
+        table,tbody,td,tr {
+                font-size: small;
+        }
+	.info-doctor,.spe {
+                display: none;
+        }
+        .doctor {
+                width: 20px;
+                height: 20px;
+        }
 }
