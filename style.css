@@ -311,7 +311,7 @@ footer {
         aside {
                 display: none;
         }
-        .doctolib-link{
+        .doctolib-link {
                 width: 100%;
         }
         .presentation {
@@ -326,8 +326,7 @@ footer {
         .info-conges {
                 font-size: small;
         }
-
-        iframe {
+	iframe {
                 display: none;
         }
         .urgency {
@@ -355,7 +354,7 @@ footer {
 @media screen and (min-width: 760px) and (max-width: 1050px){
 	aside {
                 display: none;
-        }
+        }	
 	.doctolib-link{
                 width: 100%;
         }
