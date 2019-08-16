@@ -307,19 +307,26 @@ footer {
 
 /* MEDIAS QUERIES PART */
 
-@media only screen and (device-width < 750px){
+@media screen and (max-width: 750px){
         aside {
                 display: none;
         }
         .doctolib-link{
                 width: 100%;
         }
-        section .presentation {
+        .presentation {
                 width: 100%;
         }
         .steto {
                 display: none;
         }
+	.info-prix {
+                font-size: small;
+        }
+        .info-conges {
+                font-size: small;
+        }
+
         iframe {
                 display: none;
         }
@@ -343,4 +350,29 @@ footer {
                 width: 20px;
                 height: 20px;
         }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1050px){
+	aside {
+                display: none;
+        }
+	.doctolib-link{
+                width: 100%;
+        }
+	iframe {
+                display: none;
+        }
+	.presentation {
+                width: 100%;
+        }
+	.info-prix {
+		font-size: large;
+        }
+        .info-conges {
+                font-size: large;
+        }
+	.urgency {
+		width: 20rem;
+		height: 10rem;
+	}	
 }
