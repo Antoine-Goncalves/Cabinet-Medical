@@ -56,4 +56,4 @@
  :bowtie: **_Enjoy_** :bowtie:
  
  
- *PS : Ceci est un exercice , ce n'est pas un vrai site :bangbang:*
+ *PS : Ceci n'est pas un vrai site, c'est un exercice :bangbang:*
