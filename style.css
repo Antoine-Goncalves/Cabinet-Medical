@@ -1,7 +1,8 @@
 /* CSS Document */
 
 
-/* HTML, BODY PART */
+/* HTML, BODY PART FOR ALL PAGES*/
+
 
 html,body {
 	font-family: 'Montserrat', sans-serif;
@@ -10,7 +11,9 @@ html,body {
 	background-color: #F2F2E6;
 }
 
-/* HEADER PART */
+
+/* HEADER PART FOR ALL PAGES*/
+
 
 header {
 	display: flex;
@@ -30,7 +33,9 @@ header .title {
 	color: #0b9c88;	
 }
 
-/* NAV PART */
+
+/* NAV PART FOR ALL PAGES*/
+
 
 nav {
         width: 100%;
@@ -93,7 +98,9 @@ nav a {
         background-color: #D6FFE0;
 }
 
-/* ASIDE PART */
+
+/* ASIDE PART INDEX.HTML*/
+
 
 aside {
 	float: right;
@@ -125,8 +132,11 @@ aside {
 
 }
 
+			/* SECTION PART ALL PAGES */
 
-/* SECTION PART */
+
+/* SECTION PART INDEX.HTML*/
+
 
 .presentation {
 	display: flex;
@@ -160,6 +170,9 @@ aside {
 }
 
 
+/* SECTION PART HORAIRE.HTML*/
+
+
 table {
 	display: flex;
 	justify-content: center;
@@ -172,7 +185,7 @@ table {
 
 }
 
-tbody{
+tbody {
 	border : 5px solid #0b9c88;
 	width: 50%;
 }
@@ -180,6 +193,10 @@ tbody{
 td,tr {
 	border : 1px inset #0b9c88;
 }
+
+
+/* SECTION PART DISCIPLINE.HTML*/
+
 
 .info-medecin {
         display: flex;
@@ -205,6 +222,7 @@ td,tr {
         color: white;
         box-shadow: 2px 2px 2px 2px #0b9c88;
 }
+
 .info-doctor {
 	font-size: 30px;
 }
@@ -213,6 +231,10 @@ td,tr {
 	align-self: center;
 	font-size: 20px;
 }
+
+
+/* SECTION PART CONTACT.HTML*/
+
 
 section iframe, form {
 	color: #0b9c88;
@@ -233,7 +255,23 @@ form {
 	height: 20rem;
 }
 
-/* ARTICLE PART */
+
+			/* ARTICLE PART ALL PAGES*/
+
+
+/* ARTICLE PART INDEX.HTML */
+
+
+article {
+        display: flex;
+        color: #0b9c88;
+        align-content: center;
+        background-color: #B7E8D1;
+        border-radius: 20px;
+        margin-top: 10px;
+        width: 80%;
+
+}
 
 .doctolib {
 	background-color: #0b9c88;
@@ -251,21 +289,20 @@ form {
 	box-shadow: 5px 5px 5px 5px #0b9c88;
 }
 
-article {
-	display: flex;
-	color: #0b9c88;
-        align-content: center;
-        background-color: #B7E8D1;
-        border-radius: 20px;
-        margin-top: 10px;
-        width: 80%;
 
-}
+/* ARTICLE PART INFO.HTML */
+
 
 .honoraires {
 	justify-content: center;
 	width: 100%;
 	font-size: 30px;
+}
+
+.conges {
+        justify-content: center;
+        width: 100%;
+        font-size: 30px;
 }
 
 .honoraires p {
@@ -276,11 +313,9 @@ article {
 	font-size: 30px;
 }
 
-.conges {
-	justify-content: center;
-	width: 100%;
-	font-size: 30px;
-}
+
+/* ARTICLE PART URGENCE.HTML */
+
 
 .urgency {
 	width: 25rem;
@@ -296,7 +331,9 @@ article {
 	width: 100%;
 }
 
-/* FOOTER PART */
+
+/* FOOTER PART ALL PAGES */
+
 
 footer {
 	background-color: #D6FFE0;
@@ -305,73 +342,123 @@ footer {
 	margin-top: 10px;	
 }
 
-/* MEDIAS QUERIES PART */
+
+/* MEDIAS QUERIES PART SMARTPHONE */
+
 
 @media screen and (max-width: 760px){
-        aside {
-                display: none;
-        }
-        .doctolib-link {
-                width: 100%;
-        }
-        .presentation {
-                width: 100%;
-        }
-        .steto {
-                display: none;
-        }
-	.info-prix {
-                font-size: small;
-        }
-        .info-conges {
-                font-size: small;
-        }
-	iframe {
-                display: none;
-        }
-        .urgency {
-                display: none;
-        }
-        .EMC-picture,.title-ECM {
-                display: none;
-        }
-        .logo-picture {
+        
+	/* ALL PAGES */
+
+	.logo-picture {
                 width: 80px;
                 height: 80px;
         }
-        table,tbody,td,tr {
+
+	/* INDEX.HTML PART*/
+
+	aside {
+                display: none;
+        }
+
+        .doctolib-link {
+                width: 100%;
+	}
+
+        .EMC-picture,.title-ECM {
+                display: none;
+        }
+
+        .presentation {
+                width: 100%;
+        }
+
+        .steto {
+                display: none;
+        }
+
+	/*INFO.HTML PART */
+
+	.info-prix {
                 font-size: small;
         }
+
+        .info-conges {
+                font-size: small;
+        }
+
+	/* HORAIRE.HTML PART */
+
+	table,tbody,td,tr {
+                font-size: small;
+        }
+
+	/* DISCIPLINE.HTML PART */
+
 	.info-doctor,.spe {
                 display: none;
         }
+
         .doctor {
                 width: 20px;
                 height: 20px;
         }
-}
 
-@media screen and (min-width: 760px) and (max-width: 1050px){
-	aside {
-                display: none;
-        }	
-	.doctolib-link{
-                width: 100%;
-        }
+	/* CONTACT.HTML PART */
+
 	iframe {
                 display: none;
         }
+
+	/* URGENCE.HTML PART */
+
+        .urgency {
+                display: none;
+        }
+
+}
+
+
+/* MEDIA QUERIES PART TABLET */
+
+
+@media screen and (min-width: 760px) and (max-width: 1050px){
+	
+	/* INDEX.HTML PART */
+	
+	aside {
+                display: none;
+        }
+
+	.doctolib-link {
+                width: 100%;
+        }
+
 	.presentation {
                 width: 100%;
         }
+
+	/* INFO.HTML PART */
+
 	.info-prix {
 		font-size: large;
         }
+
         .info-conges {
                 font-size: large;
         }
+
+	/* CONTACT.HTML PART */
+
+	iframe {
+                display: none;
+        }
+
+	/* URGENCE.HTML PART */
+
 	.urgency {
 		width: 20rem;
 		height: 10rem;
-	}	
+	}
+
 }
