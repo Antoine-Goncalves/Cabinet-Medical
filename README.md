@@ -1,6 +1,6 @@
 # Cabinet-Medical
 
-## Livraison 2 :
+## Livraison 2
 
 * Le client est un **cabinet médical** et il as besoin d'un site vitrine.
 * Il as besoin d'un site moderne.
@@ -22,7 +22,7 @@
   + son numéro de téléphone puisse lancer l'appel sur les mobiles,
   + son mail ne soit pas la cible de spams.
 
-## Les critères qualité sont :
+## Les critères qualité sont
 
 * Structure HTML Clean,
 * Commentaires Compréhensibles et concis,
@@ -43,7 +43,7 @@
 * 0 Frameworks CSS,
 * 0 JS.
 
-## Conditions de livraisons :
+## Conditions de livraisons
 
 * 1 repo Github,
 * Activation **gh-pages**,
